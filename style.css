@@ -604,7 +604,42 @@
 
 @media screen and (max-width: 800px) {}
 
-@media screen and (max-width: 600px) {}
+@media screen and (max-width: 768px) {
+    .contact-box {
+        width: 90%;
+        height: auto;
+        box-shadow: none;
+    }
+
+    .contact-box-left {
+        padding: 2em;
+    }
+
+    .contact-box-left p {
+        width: auto;
+        font-size: 1em;
+    }
+
+    .contact-box-right {
+        position: static;
+        width: 100%;
+        height: auto;
+        background: #383838;
+        padding: 1em 0;
+        text-align: center;
+        margin-top: 1em;
+    }
+
+    .contact-box-right::before {
+        display: none;
+    }
+
+    .contact-box-right a {
+        font-size: 1.5em;
+        transform: none;
+        line-height: normal;
+    }
+}
 
 @media screen and (max-width: 500px) {}
 
